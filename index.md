@@ -402,3 +402,5 @@ during the workshop.
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
 {% endif %}
+
+{% include install_instructions/gapminder_dataset.html %}
