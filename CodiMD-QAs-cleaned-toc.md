@@ -6,8 +6,8 @@ Carpentry@UiO Plotting and Programming in Python
 ===
 
 <div style="color: #31708f; background-color: #d9edf7; border-color=#bce8f1; padding: 15px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px;">
-- Lesson material of this workshop: <a href=http://swcarpentry.github.io/python-novice-gapminder/index.html>Plotting and programming in Python</a>, episodes 1-16.<br>
-- Please complete <a href=https://carpentries.typeform.com/to/UgVdRQ?slug=2021-03-02-uio-python-online>The Carpentries Post-workshop survey</a> as well!
+- Lesson material of this workshop: [Plotting and programming in Python](http://swcarpentry.github.io/python-novice-gapminder/index.html), episodes 1-16.
+- Please complete [The Carpentries Post-workshop survey](https://carpentries.typeform.com/to/UgVdRQ?slug=2021-03-02-uio-python-online) as well!
 </div>
 
 # Table of Contents
@@ -163,8 +163,8 @@ Carpentry@UiO Plotting and Programming in Python
     - A2: See [here](https://stackoverflow.com/questions/20463204/how-does-the-max-function-work-on-list-of-strings-in-python) for a Stack-answer
 
 <div style="color: #31708f; background-color: #d9edf7; border-color=#bce8f1; padding: 15px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px;">
-For the next session, please down load <a href=https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip> Gapminder dataset</a>, unzip it and have it on the desktop in "data" folder<br>
-<img src=https://codimd.carpentries.org/uploads/upload_b47814ded20b514eebc7472ddd07fc2f.png alt="a handwritten circle on data folder shown in the Jupyter Lab left-side menu">
+For the next session, please down load [Gapminder dataset](href=https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip), unzip it and have it on the desktop in "data" folder<br>
+![a handwritten circle on data folder shown in the Jupyter Lab left-side menu](https://codimd.carpentries.org/uploads/upload_b47814ded20b514eebc7472ddd07fc2f.png)
 </div>
 
 - Q: I was a bit slow in the last exercise and can't get the Jigsaw Puzzle code to work. I get an error for the line there after I start using the `random.randrange` line saying I have an invalid literal for int() with base 10
