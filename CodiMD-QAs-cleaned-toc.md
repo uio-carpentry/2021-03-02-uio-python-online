@@ -1,3 +1,7 @@
+---
+permalink: /CodiMD-QAs-cleaned-toc/
+---
+
 Carpentry@UiO Plotting and Programming in Python
 ===
 
