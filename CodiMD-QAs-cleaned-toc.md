@@ -1,17 +1,19 @@
 ---
 permalink: /CodiMD-QAs-cleaned-toc/
+layout: base
+language: "EN" 
 ---
 
-Carpentry@UiO Plotting and Programming in Python
+Carpentry@UiO Plotting and Programming in Python Q&A note
 ===
+This is cleaned Q&A note taken in CodiMD for "Carpentry@UiO Plotting and Programming in Python workshop" on 2021 Mar 2-3. 
 
-<div style="color: #31708f; background-color: #d9edf7; border-color=#bce8f1; padding: 15px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px;">
-- Lesson material of this workshop: [Plotting and programming in Python](http://swcarpentry.github.io/python-novice-gapminder/index.html), episodes 1-16.
-- Please complete [The Carpentries Post-workshop survey](https://carpentries.typeform.com/to/UgVdRQ?slug=2021-03-02-uio-python-online) as well!
+<div style="color: #31708f; background-color: #d9edf7; border-color=#bce8f1; padding: 15px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px;">- Lesson material of this workshop: <a href="http://swcarpentry.github.io/python-novice-gapminder/index.html">Plotting and programming in Python</a>, episodes 1-16.<br>
+- Please complete <a href="https://carpentries.typeform.com/to/UgVdRQ?slug=2021-03-02-uio-python-online">The Carpentries Post-workshop survey</a> as well!
 </div>
 
 # Table of Contents
-- [Carpentry@UiO Plotting and Programming in Python](#carpentryuio-plotting-and-programming-in-python)
+- [Carpentry@UiO Plotting and Programming in Python Q&A note](#carpentryuio-plotting-and-programming-in-python-qa-note)
 - [Table of Contents](#table-of-contents)
 - [Day 1](#day-1)
   - [Questions in Ep. 1-3](#questions-in-ep-1-3)
@@ -39,6 +41,7 @@ Carpentry@UiO Plotting and Programming in Python
   - [Questions and comments at the end of Day 1](#questions-and-comments-at-the-end-of-day-1)
 - [Day 2](#day-2)
   - [Icebreaker questions and answers](#icebreaker-questions-and-answers)
+  - [Questions in ep. 9-11 (Plotting/Lists)](#questions-in-ep-9-11-plottinglists)
   - [Exercises part 1](#exercises-part-1-1)
     - [Ep. 9 Plotting](#ep-9-plotting)
       - [Minima and Maxima](#minima-and-maxima)
@@ -47,9 +50,14 @@ Carpentry@UiO Plotting and Programming in Python
       - [Fill in the Blanks](#fill-in-the-blanks)
       - [Working With the End](#working-with-the-end)
       - [Slice Bounds](#slice-bounds)
-  - [Questions in ep. 9-11 (Plotting/Lists)](#questions-in-ep-9-11-plottinglists)
   - [Questions in ep. 12-14 (For Loops/Conditionals/Looping Over Data Sets)](#questions-in-ep-12-14-for-loopsconditionalslooping-over-data-sets)
   - [Exercises part 2 until 10:50](#exercises-part-2-until-1050-1)
+    - [Ep. 12 For Loops](#ep-12-for-loops)
+      - [Reversing a String](#reversing-a-string)
+      - [Cumulative Sum](#cumulative-sum)
+      - [(extra: Practice Accumulating)](#extra-practice-accumulating)
+    - [Ep. 13 Conditionals](#ep-13-conditionals)
+      - [Trimming Values](#trimming-values)
     - [Here's some bonus questions if you've done them all:](#heres-some-bonus-questions-if-youve-done-them-all)
   - [Questions in Ep. 16 (Writing Functions)](#questions-in-ep-16-writing-functions)
   - [Exercises part 3 Until 11:45](#exercises-part-3-until-1145)
@@ -163,8 +171,8 @@ Carpentry@UiO Plotting and Programming in Python
     - A2: See [here](https://stackoverflow.com/questions/20463204/how-does-the-max-function-work-on-list-of-strings-in-python) for a Stack-answer
 
 <div style="color: #31708f; background-color: #d9edf7; border-color=#bce8f1; padding: 15px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px;">
-For the next session, please down load [Gapminder dataset](href=https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip), unzip it and have it on the desktop in "data" folder<br>
-![a handwritten circle on data folder shown in the Jupyter Lab left-side menu](https://codimd.carpentries.org/uploads/upload_b47814ded20b514eebc7472ddd07fc2f.png)
+For the next session, please down load <a href="https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip">Gapminder dataset</a>, unzip it and have it on the desktop in "data" folder<br>
+<img src="https://codimd.carpentries.org/uploads/upload_b47814ded20b514eebc7472ddd07fc2f.png" alt="handwritten circle on data folder shown in the Jupyter Lab left-side menu">
 </div>
 
 - Q: I was a bit slow in the last exercise and can't get the Jigsaw Puzzle code to work. I get an error for the line there after I start using the `random.randrange` line saying I have an invalid literal for int() with base 10
@@ -277,31 +285,6 @@ Good answers to questions
 - USA
 - Lars Lerin's gallery in Sweden
 
-
-## Exercises part 1
-
-### Ep. 9 Plotting 
-
-#### Minima and Maxima
-![](https://codimd.carpentries.org/uploads/upload_5bc60a040072a3eae0eb4818ba2d9c6a.png)
-
-#### (Extra: Correlations)
-![](https://codimd.carpentries.org/uploads/upload_01650cd5a7cc3ba6e7866ae439288b5d.png)
-![](https://codimd.carpentries.org/uploads/upload_8b774ecb4ab2b3e431e5bde88d36e1e0.png)
-
-### Ep. 11 Lists
-
-#### Fill in the Blanks
-![](https://codimd.carpentries.org/uploads/upload_396f99ab4a90dac4e7479aa564634e57.png)
-
-#### Working With the End
-![](https://codimd.carpentries.org/uploads/upload_243b71fd1ab9d9e358c1336d023d054e.png)
-
-#### Slice Bounds
-![](https://codimd.carpentries.org/uploads/upload_485e52726f6d34437a0d35d0bc856cb9.png)
-
-
-
 ## Questions in ep. 9-11 (Plotting/Lists)
 **Please write questions below**
 
@@ -330,6 +313,29 @@ Good answers to questions
     - A: yes, you would import more (not sure what, tough) and have to use `matplotlib.pyplot.plot(x,y)` instead of `plt.plot(x,y)`
         - Thank you!  
 
+## Exercises part 1
+
+### Ep. 9 Plotting 
+
+#### Minima and Maxima
+![](https://codimd.carpentries.org/uploads/upload_5bc60a040072a3eae0eb4818ba2d9c6a.png)
+
+#### (Extra: Correlations)
+![](https://codimd.carpentries.org/uploads/upload_01650cd5a7cc3ba6e7866ae439288b5d.png)
+![](https://codimd.carpentries.org/uploads/upload_8b774ecb4ab2b3e431e5bde88d36e1e0.png)
+
+### Ep. 11 Lists
+
+#### Fill in the Blanks
+![](https://codimd.carpentries.org/uploads/upload_396f99ab4a90dac4e7479aa564634e57.png)
+
+#### Working With the End
+![](https://codimd.carpentries.org/uploads/upload_243b71fd1ab9d9e358c1336d023d054e.png)
+
+#### Slice Bounds
+![](https://codimd.carpentries.org/uploads/upload_485e52726f6d34437a0d35d0bc856cb9.png)
+
+
 ## Questions in ep. 12-14 (For Loops/Conditionals/Looping Over Data Sets)
 **Please write questions below**
 
@@ -341,14 +347,21 @@ Good answers to questions
 
 10 more minutes please?
 
-![](https://codimd.carpentries.org/uploads/upload_8adfa4471957715281dd816df9d137c0.png)
+### Ep. 12 For Loops
 
+#### Reversing a String 
+![](https://codimd.carpentries.org/uploads/upload_a8f232f715a5aff8e611402e84a2e2d7.png)
 
-![](https://codimd.carpentries.org/uploads/upload_fd3d78ead627436a79a72373fd966caa.png)
+#### Cumulative Sum
+![](https://codimd.carpentries.org/uploads/upload_37fb03ba9299d6da2be0e9276be5f72b.png)
 
-![](https://codimd.carpentries.org/uploads/upload_b7562bec17118d9caeea99fc39c7fd42.png)
+#### (extra: Practice Accumulating)
+![](https://codimd.carpentries.org/uploads/upload_2218f1ecef904430859d9eb00c5c3a28.png)
 
-![](https://codimd.carpentries.org/uploads/upload_d193d4b57c9255d2a4a7c47e07b7beed.png)
+### Ep. 13 Conditionals
+
+#### Trimming Values
+![](https://codimd.carpentries.org/uploads/upload_c0d37032f78a0495cf2e6f2f98ccf031.png)
 
 - Room 7 are doing fine. Some discussions and finally we did not finish Exe. 4.
 - Room 11: We managed the first 3 exercises together and I lost one participant due to comuter problems.
