@@ -298,8 +298,9 @@ available at https://codimd.carpentries.org
 <h2 id="collaborative_notes">Collaborative Notes</h2>
 
 <p>
-We used this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code. Please note that the collaborative note on CodiMD is editable at anytime, but the organizer will not control the contents or answer to any newly added questions in this note after cleaning the note upon the end of the workshop.
-  <a href="{{ site.baseurl }}/CodiMD-QAs-cleaned-toc/">Cleaned and arvhived note</a> is also available, so please refer this for reviewing purpose.
+We used this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code. Please note that the collaborative note on CodiMD is editable at anytime, but the organizer will not control the contents or answer to any newly added questions in this note after cleaning the note upon the end of the workshop.</p>
+<p>
+For reviewing purpose, please use <a href="{{ site.baseurl }}/CodiMD-QAs-cleaned-toc/">this archived cleaned note</a>.
 </p>
 <hr/>
 {% endif %}
